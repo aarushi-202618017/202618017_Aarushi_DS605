@@ -1,2 +1,5 @@
 # 202618017_Aarushi_DS605
-For DS605 Fundamentals of Machine Leaning Labs
+DS605 Fundamentals of Machine Learning Lab
+Aarushi Rana
+Student Id: 202618017
+MSc Data Science
