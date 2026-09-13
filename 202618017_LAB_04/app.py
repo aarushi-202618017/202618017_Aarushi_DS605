@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(
-    page_title="NYC Airbnb Price Predictor", page_icon="🗽", layout="centered"
+    page_title="NYC Airbnb Price Predictor", layout="centered"
 )
 
 st.title("🗽 NYC Airbnb Nightly Price Predictor")
