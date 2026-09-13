@@ -8,7 +8,7 @@ st.set_page_config(
     page_title="NYC Airbnb Price Predictor", layout="centered"
 )
 
-st.title("🗽 NYC Airbnb Nightly Price Predictor")
+st.title("NYC Airbnb Nightly Price Predictor")
 st.write("Estimate the optimal nightly price for an NYC listing.")
 
 
