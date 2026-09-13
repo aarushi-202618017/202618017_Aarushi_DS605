@@ -1,16 +1,24 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
+import os
 import joblib
+import numpy as np
+import pandas as pd
+import streamlit as st
 
-st.set_page_config(page_title="NYC Airbnb Price Predictor", page_icon="🗽", layout="centered")
+st.set_page_config(
+    page_title="NYC Airbnb Price Predictor", page_icon="🗽", layout="centered"
+)
 
 st.title("🗽 NYC Airbnb Nightly Price Predictor")
 st.write("Estimate the optimal nightly price for an NYC listing.")
 
+
+# Dynamically locate airbnb_model.pkl in the same directory as app.py
 @st.cache_resource
 def load_pipeline():
-    return joblib.load("airbnb_model.pkl")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(base_dir, "airbnb_model.pkl")
+    return joblib.load(model_path)
+
 
 pipeline = load_pipeline()
 
