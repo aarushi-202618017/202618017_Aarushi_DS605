@@ -37,8 +37,7 @@ The primary execution environment for this project is the Google Colab notebook 
 ##  Repository Structure
 
 ```text
-├── notebooks/
-│   └── airbnb_price_prediction.ipynb   # Complete analysis, training, and tuning notebook
+├── airbnb_price_prediction.ipynb   # Complete analysis, training, and tuning notebook
 ├── airbnb_model.pkl                    # Saved Scikit-Learn model pipeline
 ├── app.py                              # Streamlit web application script
 ├── requirements.txt                    # Project dependencies for deployment
