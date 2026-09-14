@@ -1,4 +1,4 @@
-# Live Deployed Link: https://202618017mllab04airbnb.streamlit.app/
+# Live Deployment Link: https://202618017mllab04airbnb.streamlit.app/
 # NYC Airbnb Nightly Price Predictor
 
 An end-to-end Machine Learning solution that predicts nightly Airbnb listing prices across New York City. Built as part of **DS605: Fundamentals of Machine Learning**, this project covers data cleaning, feature engineering, model selection, hyperparameter tuning, and interactive deployment.
