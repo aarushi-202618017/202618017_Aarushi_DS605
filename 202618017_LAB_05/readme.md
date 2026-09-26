@@ -6,7 +6,7 @@ Student Name: Aarushi Rana
 
 Lab 05 Description:
 
-This notebook compares `scikit-learn` and custom (from-scratch) implementations of Linear and Logistic Regression for predicting garment worker productivity.
+The notebook compares `scikit-learn` and custom (from-scratch) implementations of Linear and Logistic Regression for predicting garment worker productivity.
 
  **Key Observations**
 
